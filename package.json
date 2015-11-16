@@ -1,0 +1,25 @@
+{
+  "name": "winston-logrotate",
+  "version": "1.0.0",
+  "description": "Log rotating transport for Winston",
+  "main": "./lib/winston-logrotate.js",
+  "repository": "https://github.com/jut-io/winston-logrotate",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+      "bluebird":"2.9.30",
+      "fs-extra":"0.24.0",
+      "logrotate-stream":"0.2.5",
+      "winston":"2.1.0"
+  },
+  "devDependencies": {
+      "bluebird-retry": "0.4.0",
+      "chai": "1.10.0",
+      "mocha": "2.1.0",
+      "temp": "0.8.1",
+      "underscore": "1.8.3"
+  },
+  "author": "Jut, Inc.",
+  "license": "Apache-2.0"
+}

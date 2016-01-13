@@ -1,6 +1,6 @@
 # winston-logrotate
 
-[![Build Status](https://magnum.travis-ci.com/jut-io/winston-logrotate.svg?token=C2AjzxBQoVUrmWXFQb7w)](https://magnum.travis-ci.com/jut-io/winston-logrotate)
+[![Build Status](https://travis-ci.org/juttle/winston-logrotate.svg)](https://travis-ci.org/juttle/winston-logrotate)
 
 ## Overview
 

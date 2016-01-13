@@ -2,8 +2,15 @@
   "name": "winston-logrotate",
   "version": "1.0.0",
   "description": "Log rotating transport for Winston",
+  "keywords": [
+    "winston",
+    "logrotate"
+  ],
+  "homepage": "https://github.com/juttle/juttle",
+  "bugs": "https://github.com/juttle/juttle/issues",
+  "license": "Apache-2.0",
+  "repository": "juttle/juttle-influx-adapter",
   "main": "./lib/winston-logrotate.js",
-  "repository": "https://github.com/jut-io/winston-logrotate",
   "scripts": {
     "test": "mocha"
   },
@@ -19,7 +26,5 @@
       "mocha": "2.1.0",
       "temp": "0.8.1",
       "underscore": "1.8.3"
-  },
-  "author": "Jut, Inc.",
-  "license": "Apache-2.0"
+  }
 }

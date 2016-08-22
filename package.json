@@ -6,10 +6,10 @@
     "winston",
     "logrotate"
   ],
-  "homepage": "https://github.com/juttle/juttle",
-  "bugs": "https://github.com/juttle/juttle/issues",
+  "homepage": "https://github.com/juttle/winston-logrotate",
+  "bugs": "https://github.com/juttle/winston-logrotate/issues",
   "license": "Apache-2.0",
-  "repository": "juttle/juttle-influx-adapter",
+  "repository": "juttle/winston-logrotate",
   "main": "./lib/winston-logrotate.js",
   "scripts": {
     "test": "mocha"

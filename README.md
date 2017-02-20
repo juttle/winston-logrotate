@@ -46,7 +46,7 @@ var rotateTransport = new winston.transports.Rotate({
         colorize: false,
         timestamp: true,
         json: false,
-        max: '100m',
+        size: '100m',
         keep: 5,
         compress: true
 });

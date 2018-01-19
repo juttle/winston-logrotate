@@ -1,4 +1,4 @@
-# winston-logrotate
+# winston-logrotate (LOOKING FOR NEW MAINTAINER)
 
 [![Build Status](https://travis-ci.org/juttle/winston-logrotate.svg)](https://travis-ci.org/juttle/winston-logrotate)
 
@@ -29,6 +29,8 @@ covers, which is used to perform compression/rotation and winston's
 | size      | no  | The max file size of a log before rotation occurs. Supports 1024, 1k, 1m, 1g. Defaults to 100m |
 | keep      | no  | The number of rotated log files to keep (including the primary log file). Defaults to 5 |
 | compress  | no  | Optionally compress rotated files with gzip. Defaults to true. |
+| label     | no  | Optionally label entries in the log with the given label. |
+| stringify | no  | Optionally overwrite the default stringify method. |
 
 ## Usage
 

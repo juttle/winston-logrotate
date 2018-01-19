@@ -1,4 +1,4 @@
-# winston-logrotate
+# winston-logrotate (LOOKING FOR NEW MAINTAINER)
 
 [![Build Status](https://travis-ci.org/juttle/winston-logrotate.svg)](https://travis-ci.org/juttle/winston-logrotate)
 

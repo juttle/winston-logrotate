@@ -158,4 +158,20 @@ describe('winston logrotate tests', function () {
 
         recursive_log(6);
     });
+
+    it('max file handles', function(done) {
+      this.timeout(10000)
+      var temp_dir = temp.mkdirSync('winston-logrotate-test');
+      var file = path.join(temp_dir, 'rotate.log');
+      var logger = new Rotate({
+          file: file,
+          size: '1k',
+          keep: 1
+      });
+
+      for (let i = 0; i < 100000; ++ i) {
+        logger.log('max log test');
+      }
+      done();
+    })
 });

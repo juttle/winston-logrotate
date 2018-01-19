@@ -169,7 +169,7 @@ describe('winston logrotate tests', function () {
           keep: 1
       });
 
-      for (let i = 0; i < 100000; ++ i) {
+      for (var i = 0; i < 100000; ++ i) {
         logger.log('max log test');
       }
       done();
